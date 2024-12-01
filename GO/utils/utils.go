@@ -26,7 +26,7 @@ func CountOccurrences[T comparable](slice []T, target T) int {
 
 func ReadInput() ([]string, error) {
 	input := make([]string, 0)
-	file, err := os.Open("../input.txt")
+	file, err := os.Open("../../input.txt")
 	if err != nil {
 		fmt.Println("Error reading input:", err)
 		return nil, err
